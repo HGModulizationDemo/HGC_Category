@@ -1,15 +1,13 @@
 //
-//  CTMediator+C.h
+//  Cmodel.h
 //  HGC_Category
 //
 //  Created by 胡志辉 on 2018/7/2.
 //  Copyright © 2018年 胡志辉. All rights reserved.
 //
 
-#import "CTMediator.h"
+#import <Foundation/Foundation.h>
 
-@interface CTMediator (C)
+@interface Cmodel : NSObject
 
--(UIViewController *)C_viewController;
-    
 @end

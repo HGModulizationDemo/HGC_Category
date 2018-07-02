@@ -14,7 +14,7 @@
 		A98D499320EA169C00C40AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98D499220EA169C00C40AA1 /* Assets.xcassets */; };
 		A98D499620EA169C00C40AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98D499420EA169C00C40AA1 /* LaunchScreen.storyboard */; };
 		A98D499920EA169C00C40AA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A98D499820EA169C00C40AA1 /* main.m */; };
-		A98D49A220EA187A00C40AA1 /* CTMediator+C.m in Sources */ = {isa = PBXBuildFile; fileRef = A98D49A120EA187A00C40AA1 /* CTMediator+C.m */; };
+		A98D49A520EA1F6200C40AA1 /* Cmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = A98D49A420EA1F6200C40AA1 /* Cmodel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		A98D499520EA169C00C40AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A98D499720EA169C00C40AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A98D499820EA169C00C40AA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A98D49A020EA187A00C40AA1 /* CTMediator+C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+C.h"; sourceTree = "<group>"; };
-		A98D49A120EA187A00C40AA1 /* CTMediator+C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+C.m"; sourceTree = "<group>"; };
+		A98D49A320EA1F6200C40AA1 /* Cmodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cmodel.h; sourceTree = "<group>"; };
+		A98D49A420EA1F6200C40AA1 /* Cmodel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cmodel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 		A98D499F20EA17C700C40AA1 /* HGC_Category */ = {
 			isa = PBXGroup;
 			children = (
-				A98D49A020EA187A00C40AA1 /* CTMediator+C.h */,
-				A98D49A120EA187A00C40AA1 /* CTMediator+C.m */,
+				A98D49A320EA1F6200C40AA1 /* Cmodel.h */,
+				A98D49A420EA1F6200C40AA1 /* Cmodel.m */,
 			);
 			path = HGC_Category;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 				A98D498E20EA169B00C40AA1 /* ViewController.m in Sources */,
 				A98D499920EA169C00C40AA1 /* main.m in Sources */,
 				A98D498B20EA169B00C40AA1 /* AppDelegate.m in Sources */,
-				A98D49A220EA187A00C40AA1 /* CTMediator+C.m in Sources */,
+				A98D49A520EA1F6200C40AA1 /* Cmodel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

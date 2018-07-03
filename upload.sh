@@ -50,4 +50,4 @@ git commit -m ${versionNum}
 git tag ${versionNum}
 git push origin master --tags
 pod spec lint __ProjectName__.podspec --use-libraries
-pod repo push ${privatePodsName} __ProjectName__.podspec --verbose --allow-warnings --use-libraries  
+pod repo push ${privatePodsName} __ProjectName__.podspec --verbose --allow-warnings --use-libraries
